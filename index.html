@@ -1,1 +1,202 @@
-index.html
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoySha Bot | Oficiální web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080b12;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #101725;
+            padding: 22px;
+            text-align: center;
+            border-bottom: 2px solid #38bdf8;
+        }
+
+        header h1 {
+            color: #38bdf8;
+            font-size: 30px;
+        }
+
+        header p {
+            color: #b8c7d9;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            color: #38bdf8;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        .section h2 {
+            color: #38bdf8;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+
+        .commands {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .command {
+            background: #101725;
+            border: 1px solid #26394d;
+            border-radius: 12px;
+            padding: 20px;
+            transition: 0.2s;
+        }
+
+        .command:hover {
+            border-color: #38bdf8;
+            transform: translateY(-3px);
+        }
+
+        .command h3 {
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+
+        .command p {
+            color: #cbd5e1;
+        }
+
+        .about {
+            background: #101725;
+            border: 1px solid #26394d;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            color: #cbd5e1;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            text-align: center;
+            background: #101725;
+            border-top: 1px solid #26394d;
+            color: #94a3b8;
+        }
+
+        footer span {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🤖 WoySha Bot</h1>
+        <p>Oficiální web Discord bota</p>
+    </header>
+
+    <section class="hero">
+        <h2>WoySha Bot</h2>
+        <p>
+            Tvůj Discord pomocník! 🤖
+            Jednoduchý bot vytvořený pro Discord servery
+            a komunitu WoySha.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>📋 Příkazy bota</h2>
+
+        <div class="commands">
+
+            <div class="command">
+                <h3>/ahoj</h3>
+                <p>Bot tě pozdraví.</p>
+            </div>
+
+            <div class="command">
+                <h3>/ping</h3>
+                <p>Zobrazí odezvu bota.</p>
+            </div>
+
+            <div class="command">
+                <h3>/server</h3>
+                <p>Informace o Discord serveru.</p>
+            </div>
+
+            <div class="command">
+                <h3>/clenove</h3>
+                <p>Ukáže počet členů serveru.</p>
+            </div>
+
+            <div class="command">
+                <h3>/avatar</h3>
+                <p>Zobrazí avatar uživatele.</p>
+            </div>
+
+            <div class="command">
+                <h3>/info</h3>
+                <p>Informace o WoySha Botovi.</p>
+            </div>
+
+            <div class="command">
+                <h3>/vystraha</h3>
+                <p>Veřejná výstraha pro členy. Pouze pro administrátory.</p>
+            </div>
+
+            <div class="command">
+                <h3>/anketa</h3>
+                <p>Vytvoří jednoduchou anketu.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>ℹ️ O botovi</h2>
+        <div class="about">
+            WoySha Bot je vlastní Discord bot vytvořený
+            pro správu a zábavu na Discord serverech.
+            <br><br>
+            Vyvíjí ho WoySha. 💙
+        </div>
+    </section>
+
+    <footer>
+        WoySha Bot © 2026
+        <br>
+        Vytvořeno pro komunitu <span>WoySha 💙</span>
+    </footer>
+
+</body>
+</html>
